@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: palevioletred;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: #1F2937;
+    position: static;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 3em;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+    flex-direction: row;
+    margin: 0 30px;
+    list-style: none;
+}
+section{
+    padding: 60px 150px;
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #1F2937;
+}
+.pic img{
+    height: 400px;
+    width: 330px;
+}
+.home h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.home p{
+    color: brown;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.home .btn{
+    text-decoration: none;
+    background: aquamarine;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: palevioletred;
+    display: inline-block;
+    margin: 3Opx 0;
+    border-radius: 30px;
+}
+.books{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: brown;
+    text-align: center;
+    font-size: 45px;
+    margin: 20px auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background: aquamarine;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    padding: 20px 35px;
+    text-align: center;
+    box-shadow: 0px 10px 13px -7px #5DBDE3, 5px 5px 15px 5px rgba(93,189,227,0);
+    /* box-shadow: 5px 5px 15px 5px #5DBDE3; */
+}
+h4{
+    color: palevioletred;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.words figcaption{
+    color: black;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.words a{
+    text-decoration: none;
+    background: brown;
+    font-weight: bold;
+    padding: 10px 18px;
+    color: bisque;
+    display: inline-block;
+    margin: 3Opx 0;
+    border-radius: 30px;
+}
+.quote{
+    background: aquamarine;
+    width: 70%;
+    margin: 50px auto;
+    padding: 60px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+}
+.says p{
+    color: brown;
+}
+aside{
+    color: brown;
+}
+/* .says{
+    align-items: center;
+    height: 300px;
+    background: aquamarine;
+    padding: 10px 20px;
+    border-radius: 30px;
+} */
+.more{
+    background: aquamarine;
+    width: 60%;
+    margin: 100px auto;
+    padding: 60px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.sign h4{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.sign figcaption{
+    color: palevioletred;
+}
+.btn a{
+    text-decoration: none;
+    background: brown;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: bisque;
+    display: inline-block;
+    margin: 3Opx 0;
+    border-radius: 20px;
+}
+.bottom{
+    background: #1F2937;
+}
+.last{
+    text-align: center;
+    height: 80px;
+    background: aquamarine;
+    padding: 10px 20px;
+}
