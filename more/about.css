@@ -1,0 +1,45 @@
+.title h2{
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    margin: 20px auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background: #1F2937;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    padding: 20px 35px;
+    text-align: center;
+    box-shadow: 0px 10px 13px -7px #5DBDE3, 5px 5px 15px 5px rgba(93,189,227,0);
+    /* box-shadow: 5px 5px 15px 5px #5DBDE3; */
+}
+h4{
+    color: #5DBDE3;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.words p{
+    color: #f9faf8;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.words a{
+    text-decoration: none;
+    background: #5DBDE3;
+    font-weight: bold;
+    padding: 10px 18px;
+    color: #1F2937;
+    display: inline-block;
+    margin: 3Opx 0;
+    border-radius: 30px;
+}
